@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <title>Laundry Bata</title>
+  <link rel="shortcut icon" href="sawah.png">
+  <!-- Bootstrap core CSS-->
+  <link href="style/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom fonts -->
+  <link href="style/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <!-- Custom styles-->
+  <link href="style/css/sb-admin.css" rel="stylesheet">
+  <style type="text/css">
+    body{
+      background: url(rice.jpg);
+      opacity: 0.8;
+      background-size: 100%;
+    }
+  </style>
+</head>
+  
+<body class="bg-dark">
+        <div class="container">
+          <div class="card card-register mx-auto mt-5">
+            <div class="card-header">Register Sign Up</div>
+            <div class="card-body">
+              <form action="simpan.php" method="post">
+                <div class="form-group">
+                  <div class="form-row">
+                      <label for="username">Username</label>
+                      <input class="form-control" id="username" name="username" type="text" aria-describedby="nameHelp" placeholder="Enter username">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="email">Email</label>
+                  <input class="form-control" id="email" name="email" type="email" aria-describedby="emailHelp" placeholder="Enter email">
+                </div>
+                <div class="form-group">
+                  <div class="form-group">
+                  <label for="telp">No Telepon</label>
+                  <input class="form-control" id="telp" name="telp" type="text" aria-describedby="emailHelp" placeholder="Enter Telepon">
+                </div>
+                <div class="form-group">
+                  <div class="form-group">
+                  <label for="alamat">Alamat</label>
+                  <input class="form-control" id="alamat" name="alamat" type="text" aria-describedby ="emailHelp" placeholder="Enter alamat">
+                </div>
+                <div class="form-group">
+                  <div class="form-row">
+                    <div class="col-md-6">
+                      <label for="password">Password</label>
+                      <input class="form-control" id="password" name="password" type="password" placeholder="Password">
+                    </div>
+                    <div class="col-md-6">
+                      <label for="password1">Confirm password</label>
+                      <input class="form-control" id="password1" name="password1" type="password" placeholder="Confirm password">
+                    </div>
+                  </div>
+                </div>
+                <input type="submit" class="btn btn-primary btn-block" name="Register" value="Register">
+              </form>
+              <div class="text-center">
+                <a class="d-block small mt-3" href="login.php">Login Page</a>
+              </div>
+            </div>
+          </div>
+        </div>
+  <!-- Bootstrap core JavaScript-->
+  <script src="style/vendor/jquery/jquery.min.js"></script>
+  <script src="style/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <!-- Core plugin JavaScript-->
+  <script src="style/vendor/jquery-easing/jquery.easing.min.js"></script>
+</body>
+</html>
